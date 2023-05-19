@@ -25,7 +25,11 @@ function rot13(encodedStr){
   // Only change code below this line
 
   // return ;
-	return decodedArr;
+	let str = "";
+	for(let i=0;i<decodedArr.length;i++) {
+		str += decodedArr[i];
+	}
+	return str;
 }
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
